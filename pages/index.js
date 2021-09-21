@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className="container flex">
         <div className="w-full flex flex-row grid grid-cols-6">
-          <div className="border border-black-400 mt-2 h-screen col-span-2 bg-indigo-100">
+          <div className="border border-black-400 mt-2 h-screen col-span-2 bg-indigo-50">
             <h1 className="text-4xl text-center py-10 font-semibold">
               Welcome to <a href="#">Maduka</a>
             </h1>
@@ -22,7 +22,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="border border-red-200 mt-2 ml-2 col-span-4 p-4 bg-yellow-100">
+          <div className="border border-red-200 mt-2 ml-2 col-span-4 p-4 bg-yellow-50">
             <h2 className="text-3xl font-semibold m-4">
               Sign in to your account
             </h2>
@@ -35,7 +35,7 @@ export default function Home() {
                 <a href="#">Twitter</a>
               </button>
               <button className="m-2 border-2 border-black-300 w-24">
-                <a href="#">Facebook</a>
+                <a href="/dashboard">Facebook</a>
               </button>
             </div>
             <br></br>
