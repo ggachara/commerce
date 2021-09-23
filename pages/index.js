@@ -40,13 +40,13 @@ export default function Home() {
             </div>
             <br></br>
             <h3 className="text-lg font-normal m-1 ml-4"> Or continue with</h3>
-            <hr></hr>
+            <hr className="mb-2"></hr>
             <div className="ml-4">
               <label for="name">
                 {" "}
                 Username
                 <input
-                  className="w-full border-radius-50 mt-1 mb-4"
+                  className="w-1/3 border-radius-50 mt-2 mb-4 block rounded-lg border-2"
                   type="text"
                   id="name"
                 ></input>
@@ -56,7 +56,7 @@ export default function Home() {
                 {" "}
                 Password
                 <input
-                  className="w-full mt-1 mb-4"
+                  className="w-1/3 mt-2 mb-4 block rounded-lg border-2"
                   type="password"
                   id="name"
                 ></input>
@@ -64,7 +64,7 @@ export default function Home() {
               <br></br>
               <button
                 type="submit"
-                className="bg-blue-300 border-2 border-black-300 mt-4 p-2 w-32 text-white rounded-md w-1/2 text-center"
+                className="bg-blue-300 border-2 border-black-300 mt-4 p-2 w-1/6 text-white rounded-md text-center"
               >
                 Log In
               </button>
@@ -72,13 +72,13 @@ export default function Home() {
             <div className="mt-12 flex justify-between ml-4">
               <a href="#">
                 {" "}
-                <button className="bg-blue-300 border-2 border-black-300 h-8 mt-4 px-3 rounded-md">
+                <button className="border-gray-900 border-b-2 h-8 mt-4 px-1 rounded-none border-opacity-50">
                   {" "}
                   Forgot Password{" "}
                 </button>{" "}
               </a>
               <a href="#">
-                <button className="bg-blue-300 border-2 border-black-300  h-8 mt-4 px-3 rounded-md">
+                <button className="border-gray-900 border-b-2 h-8 mt-4 px-1 rounded-none text-black border-opacity-50">
                   {" "}
                   Sign Up{" "}
                 </button>{" "}
@@ -90,7 +90,7 @@ export default function Home() {
 
       <footer className="border-2 border-black-300 h-10 mt-2 text-center">
         <a href="#" target="_blank" rel="noopener noreferrer">
-          Powered by Nairobi Metropolitan
+          Powered by Nairobi Metropolitan Services
         </a>
       </footer>
     </div>
